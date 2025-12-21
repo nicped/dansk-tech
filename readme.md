@@ -48,8 +48,9 @@ Har du kendskab til et dansk tech-system, der mangler på listen? Følg disse tr
    ```
 4. **Tilføj produktet** i `index.html`:
    - Find sektionen med produkterne (søg efter `id="produkter"`)
+   - **VIGTIGT**: Tilføj det nye produkt **efter** de eksisterende produkter (ikke først i listen)
    - Tilføj et nyt `<li>` element efter samme struktur som eksisterende produkter
-   - Tilføj produktets billede i roden af projektet (400x400px, PNG format)
+   - Tilføj produktets billede i `images/` mappen (400x400px, PNG format)
    - Opdater også Schema.org JSON-LD sektionen i `<head>` hvis muligt
 
 5. **Commit og push**:
@@ -87,11 +88,16 @@ Hjælp med at sprede budskabet:
 
 ### Kriterier for produkter
 
-For at et produkt kan inkluderes, skal det opfylde mindst ét af følgende kriterier:
+For at et produkt kan inkluderes, skal det opfylde følgende:
 
+**Danske kriterier** (mindst ét af følgende):
 - ✅ Hovedkontor i Danmark
 - ✅ Dansk stifter eller medstifter
 - ✅ Primært dansk ejerskab
+
+**Tech stack kriterier**:
+- ✅ Produktet skal kunne anvendes i en tech-stack for software-virksomheder
+- ✅ Produktet skal være relevant for SaaS-firmaer, e-commerce-firmaer eller lignende tech/web-firmaer
 
 ### Produktinformation
 
@@ -111,7 +117,7 @@ Når du tilføjer et produkt, skal du inkludere:
     <div class="relative">
       <div class="absolute -inset-4 rounded-3xl bg-gradient-to-br from-orange-50 via-orange-100/50 to-amber-50 opacity-0 group-hover:opacity-100 dark:from-orange-900/20 dark:via-orange-800/10 dark:to-amber-900/20 transition-opacity duration-300 blur-xl"></div>
       <div class="relative rounded-2xl bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 shadow-lg shadow-gray-200/50 dark:shadow-gray-900/50 group-hover:shadow-xl group-hover:shadow-gray-300/50 dark:group-hover:shadow-gray-800/50 transition-all duration-300">
-        <img src="produkt.png" alt="Produktnavn" width="400" height="400" loading="lazy" class="aspect-square w-full rounded-2xl object-cover transition-all duration-300" />
+        <img src="images/produkt.png" alt="Produktnavn" width="400" height="400" loading="lazy" class="aspect-square w-full rounded-2xl object-cover transition-all duration-300" />
       </div>
     </div>
     <h3 class="mt-6 text-lg/8 font-semibold tracking-tight text-gray-900 dark:text-white group-hover:text-gray-700 dark:group-hover:text-gray-200 transition-colors">
@@ -165,7 +171,13 @@ dansk-tech/
 ├── robots.txt          # SEO robots fil
 ├── sitemap.xml         # SEO sitemap
 ├── favicon.svg         # Favicon
-├── *.png               # Produktbilleder
+├── favicon.ico         # Favicon (ICO format)
+├── apple-touch-icon.*  # Apple Touch Icons
+├── og-image-*.png      # Open Graph billede
+├── images/             # Billeder mappe
+│   ├── *.png           # Produktbilleder
+│   ├── *.jpg           # Personbilleder og andre
+│   └── *.webp          # WebP billeder
 └── README.md           # Denne fil
 ```
 
