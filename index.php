@@ -556,7 +556,7 @@
   // Only show section if there are products
   if (!empty($communityProducts)):
   ?>
-  <div class="bg-white py-24 sm:py-32 dark:bg-gray-900">
+  <div id="eksterne" class="bg-white py-24 sm:py-32 dark:bg-gray-900">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-3xl text-center">
         <h2 class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl dark:text-white">Software fra eksterne bidragydere</h2>
@@ -719,6 +719,22 @@
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="border-t border-gray-300 dark:border-white/15"></div>
   </div>
+  <div id="forslag"class="bg-white py-24 sm:py-32 dark:bg-gray-900">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl dark:text-white">Send dit forslag via <a href="https://github.com/Boligforeningsweb/dansk-tech" class="underline">GitHub</a></h2>
+        <p class="mt-6 text-lg/8 text-gray-600 dark:text-gray-400">
+          Er du selv udvikler og kender lige præcis dét stykke software fra Danmark som mangler på listen? Så kan du sende os en pull request og foreslå til listen af produkter fra eksterne bidragydere. Herunder kan du se dem der har bidraget indtil videre.
+        </p>
+        <div id="contributors" class="mt-10 flex items-center justify-center gap-x-4">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="border-t border-gray-300 dark:border-white/15"></div>
+  </div>
   <div class="bg-white py-24 sm:py-32 dark:bg-gray-900">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl text-center">
@@ -739,22 +755,6 @@
           <a href="mailto:kontakt@langsom.com?subject=Forslag%20til%20dansk%20tech%20stack%20-%20dansktechstack.dk" class="rounded-md bg-green-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">
             Send et forslag
           </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="border-t border-gray-300 dark:border-white/15"></div>
-  </div>
-  <div id="forslag"class="bg-white py-24 sm:py-32 dark:bg-gray-900">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl dark:text-white">Send dit forslag via <a href="https://github.com/Boligforeningsweb/dansk-tech" class="underline">GitHub</a></h2>
-        <p class="mt-6 text-lg/8 text-gray-600 dark:text-gray-400">
-          Er du selv udvikler og kender lige præcis dét stykke software fra Danmark som mangler på listen? Så kan du sende os en pull request og foreslå til listen af produkter fra eksterne bidragydere. Herunder kan du se dem der har bidraget indtil videre.
-        </p>
-        <div id="contributors" class="mt-10 flex items-center justify-center gap-x-4">
         </div>
       </div>
     </div>
