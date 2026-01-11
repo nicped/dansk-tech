@@ -202,7 +202,7 @@
         </h1>
         <p class="mt-8 text-xl/8 text-gray-600 dark:text-gray-400 max-[450px]:hidden">
           Vi er en gruppe iværksættere, der ønsker at sætte fokus på danske produkter, man kan bruge som tech stack i softwarevirksomheder. I en tid hvor der ofte tales om Danmarks afhængighed af udenlandsk software, vil vi fremhæve systemer, vi selv har tillid til - med hovedkontor i Danmark eller med danske stiftere eller medstiftere. 
-          Danmark har nemlig en stolt tradition inden for softwareudvikling. Teknologier som Ruby on Rails, TypeScript, C# og PHP har danske rødder, og nedenfor har vi samlet en liste over stærke danske alternativer til software, der ellers typisk købes i udlandet.
+          Danmark har nemlig en stolt tradition inden for softwareudvikling. Teknologier som Ruby on Rails, C++ og PHP har danske rødder, og nedenfor har vi samlet en liste over stærke danske alternativer til software, der ellers typisk købes i udlandet.
         </p>
         <p class="mt-8 text-xl/8 text-gray-600 dark:text-gray-400 hidden max-[450px]:block">
           Vi er en gruppe iværksættere, der ønsker at sætte fokus på danske produkter, man kan bruge som tech stack i softwarevirksomheder. I en tid hvor der ofte tales om Danmarks afhængighed af udenlandsk software, vil vi fremhæve danske systemer, vi selv har tillid til.
