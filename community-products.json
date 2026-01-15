@@ -87,5 +87,15 @@
       "Tawk.to",
       "Chatbase"
     ]
+  },
+  {
+    "name": "Adamatics Platform (AdaLab)",
+    "url": "https://adamatics.com/platform/",
+    "description": "En dansk platform til data science, analytics og AI, der samler notebooks, dataadgang og deployment i ét kontrolleret miljø indenfor virksomheders egen netværk og kontrol. Kan deployes hos alle cloud providers der understøtter Kubernetes, såsom Scaleway, Upcloud, samt on-prem til kritisk infrastruktur.",
+    "alternatives": [
+      "Posit",
+      "PowerBI",
+      "Sagemaker"
+    ]
   }
 ]
