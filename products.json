@@ -144,6 +144,13 @@
     "image": "images/plecto.png"
   },
   {
+    "name": "proprty.ai",
+    "url": "https://www.proprty.ai",
+    "description": "Tilstandsvurderinger, vedligeholdelsesplaner og CO₂-reduktion",
+    "alternatives": ["OptiML", "Property Inspect", "Microsoft 365"],
+    "image": "images/proprty-ai.png"
+  },
+  {
     "name": "Resos.com",
     "url": "https://resos.com",
     "description": "Reservations- og bookingssystem til restauranter",
