@@ -92,6 +92,13 @@
     "alternatives": ["Veriff", "Yoti", "AgeChecker.Net"]
   },
   {
+    "name": "Iteras",
+    "url": "https://iteras.com",
+    "description": "Abonnementsstyringsplatform til fakturering, betalinger og kundeabonnementer med selvbetjeningsportaler og integration til nordiske betalingsudbydere",
+    "alternatives": ["Zuora", "Chargebee", "Recurly", "Aria", "Chargify"],
+    "image": "images/iteras.png"
+  },
+  {
     "name": "Holdsport.dk",
     "url": "https://holdsport.dk",
     "description": "Software til kontingentopkrævning, kommunikation og medlemsadministration online.",
